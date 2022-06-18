@@ -1,0 +1,41 @@
+body{
+  background-image:url(../assets/images/yo.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.top-div{
+  direction: rtl;
+  height: 33vh;
+}
+
+.mid-div{
+  height: 33vh;
+}
+
+.bot-div{
+  direction: rtl;
+  height: 33vh;
+}
+
+.info-card{
+  display:inline-block;
+  font-family: fantasy;
+  font-size: 25px;
+  width: 450px;
+  height: 100%;
+  border-radius: 10%;
+  border: solid white 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.info-card:hover{
+  border: solid rgb(55, 185, 202);
+  background-color: white;
+  box-shadow: inset 0px 0px 30px 5px;
+}

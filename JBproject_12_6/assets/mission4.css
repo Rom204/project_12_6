@@ -1,0 +1,25 @@
+body{
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline black;
+  color: bisque;
+}
+
+.header{
+  line-height: 60px;
+  font-size: 40px;
+  text-decoration:underline;
+}
+
+a{
+  text-decoration: inherit;
+  color: rgb(196, 121, 29);
+}
+
+a:hover{
+  zoom: 150%;
+}
